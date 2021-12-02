@@ -1,0 +1,117 @@
+body {
+    background: #FDFCDC;
+    margin: 0;
+    /*font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;*/
+}
+h1, h2, h3 {
+    margin: 0;
+}
+a {
+    text-decoration:none;
+    color: #FDFCDC;
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.header-top--background {
+    background: #00AEB8;
+}
+.header-top {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 590px;
+    margin: 0;
+    padding: 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 240px;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 770px;
+    background: url("img/wave1.png") 150px 460px no-repeat;
+}
+.header-content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+.main-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    color: #003C4E;
+    font-size: 48px;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #003C4E;
+    width: 480px;
+}
+.button {
+    height: 56px;
+    width: 270px;
+    background: #F07167;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #FDFCDC;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    }
+.pagination {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pagination--width {
+    width: 593px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination__items {
+    display: flex;
+    justify-content: space-around;
+    width: 403px;
+    opacity: 70%;
+}
+.pagination__item {
+    border-radius: 5px;
+    height: 2px;
+    width: 101px;
+    background: #0081A7;
+}
+.pagination__item:first-child {
+    height: 4px;
+}
